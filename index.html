@@ -1,0 +1,261 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Bootstrap Template</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+     body { background-color: black; color: #fff; }
+        /* Custom styles for the vertical menu */
+        .vertical-menu {
+            float: ; /* Floating the menu to the right */
+            width: 190px; 
+        }
+
+        .vertical-menu ul {
+            list-style-type: none; 
+            padding: 0;
+        }
+
+        .vertical-menu li a {
+            background-color: #eee; 
+            color: black; 
+            display: block; 
+            padding: 9px;
+            text-decoration: none; 
+        }
+
+        .vertical-menu li a:hover {
+            background-color: #fff; 
+        }
+
+        .vertical-menu .active {
+            background-color: #ADD8E6;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+        <header class="text-center py-3">
+            <h1>Stock Market Collage</h1>
+        </header>
+
+        <div class="row">
+            <div class="col-md-9">
+                <section id="photos">
+                    <h2>Photo Gallery</h2>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="https://static01.nyt.com/images/2020/08/19/business/19db-newsletter-markets/merlin_175853073_163c3881-c182-4c0c-9e27-ffc0abb37aae-videoSixteenByNine3000.jpg" alt="Image 1" class="img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal1">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="https://leadership.ng/wp-content/uploads/2022/06/Stock-Market-2.jpg" alt="Image 2" class="img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal2">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/D8qa-2E/videoblocks-stock-market-exchange-trading-investment-trend-lines-chart_stt1kzlgn_thumbnail-1080_01.png" alt="Image 3" class="img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal3">
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-4">
+                            <img src="https://s.hdnux.com/photos/01/17/62/70/20917809/3/rawImage.jpg" alt="Image 4" class="img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal4">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="https://cdn.statcdn.com/Infographic/images/normal/21082.jpeg" alt="Image 5" class="img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal5">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="https://static01.nyt.com/images/2022/06/13/us/bear-markets-logarithmic-promo-1655131171192/bear-markets-logarithmic-promo-1655131171192-videoSixteenByNineJumbo1600.png" alt="Image 6" class="img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal6">
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-4">
+                            <img src="https://images.pond5.com/stock-market-crash-footage-167358046_iconl.jpeg" alt="Image 7" class="img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal7">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="https://thumbs.dreamstime.com/b/bear-market-cryptocurrency-stock-trading-ai-generated-277987321.jpg" alt="Image 8" class="img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal8">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="https://www.hdfcsec.com/hsl.images/bull_vs_bear-202303271041408965611.jpg" alt="Image 9" class="img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal9">
+                        </div>
+                    </div>
+                </section>
+                  <section id="bio" class="mt-4">
+                    <h2>Bio</h2>
+                    <p>Welcome to StockMaster, your go-to resource for everything related to the stock market. Founded in 2020 by a team of seasoned financial analysts and tech enthusiasts, StockMaster aims to demystify the complexities of stock trading and investing. Our mission is to empower individuals with the knowledge and tools they need to make informed investment decisions.
+                       At StockMaster, you'll find a wealth of resources including real-time stock data, expert analysis, educational articles, and market trends. Whether you're a beginner looking to learn the basics or an experienced investor seeking advanced strategies, our platform has something for everyone.
+                       Join our community of savvy investors and start your journey to financial success with StockMaster today!</p>
+                </section>
+
+                <section id="blog" class="mt-4">
+                    <h2>Blog</h2>
+                    <p>Welcome to the StockMaster Blog, your destination for the latest insights, tips, and trends in the stock market. Our blog is designed to keep you informed and inspired as you navigate your investment journey. Whether you're looking for expert advice, market analysis, or personal stories from fellow investors, you'll find it all here.</p>
+                </section>
+            </div>
+
+            <div class="col-md-3">
+    <!-- Vertical Menu -->
+    <div class="vertical-menu">
+    <ul>
+        <li><a href="#" class="active"><strong><strong>Home</a></li>
+        <li><a href="#photos">Photos</a></li>
+        <li><a href="#bio">Bio</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="https://twitter.com" target="_blank"><img src="https://www.businessofapps.com/wp-content/uploads/2023/07/twitter-x-e1690183153269.webp" alt="Twitter" width="32" height="32"> <b>Follow us on X</a></li>
+        <li><a href="https://instagram.com" target="_blank"><img src="https://clipartcraft.com/images/instagram-logo-transparent-background-2.png" alt="Instagram" width="32" height="32">  DM Us</a></li>
+        <li><a href="https://facebook.com" target="_blank"><img src="https://pngimg.com/uploads/facebook_logos/facebook_logos_PNG19759.png" alt="Facebook" width="32" height="32"> <strong>Facebook Page</a></li>
+    </ul>
+    </div>
+</div>
+        </div>
+
+        <section id="contact" class="mt-4">
+            <h2>Contact Us</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </section>
+
+        <footer class="text-center py-3">
+            <p>&copy; 2024 Stock Market Collage</p>
+        </footer>
+    </div>
+    <!-- Image Modals -->
+    <div class="modal fade" id="imageModal1" tabindex="-1" aria-labelledby="imageModalLabel1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModalLabel1">Image 1</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://static01.nyt.com/images/2020/08/19/business/19db-newsletter-markets/merlin_175853073_163c3881-c182-4c0c-9e27-ffc0abb37aae-videoSixteenByNine3000.jpg" alt="Image 1" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="imageModal2" tabindex="-1" aria-labelledby="imageModalLabel2" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModalLabel2">Image 2</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://leadership.ng/wp-content/uploads/2022/06/Stock-Market-2.jpg" alt="Image 2" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="imageModal3" tabindex="-1" aria-labelledby="imageModalLabel3" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModalLabel3">Image 3</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/D8qa-2E/videoblocks-stock-market-exchange-trading-investment-trend-lines-chart_stt1kzlgn_thumbnail-1080_01.png" alt="Image 3" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="imageModal4" tabindex="-1" aria-labelledby="imageModalLabel4" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModalLabel4">Image 4</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://s.hdnux.com/photos/01/17/62/70/20917809/3/rawImage.jpg" alt="Image 4" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="imageModal5" tabindex="-1" aria-labelledby="imageModalLabel5" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModalLabel5">Image 5</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://cdn.statcdn.com/Infographic/images/normal/21082.jpeg" alt="Image 5" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="imageModal6" tabindex="-1" aria-labelledby="imageModalLabel6" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModalLabel6">Image 6</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://static01.nyt.com/images/2022/06/13/us/bear-markets-logarithmic-promo-1655131171192/bear-markets-logarithmic-promo-1655131171192-videoSixteenByNineJumbo1600.png" alt="Image 6" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="imageModal7" tabindex="-1" aria-labelledby="imageModalLabel7" aria-hidden="true">
+        <div class="modal-dialog modal-sml">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModalLabel7">Image 7</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://images.pond5.com/stock-market-crash-footage-167358046_iconl.jpeg" alt="Image 7" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="imageModal8" tabindex="-1" aria-labelledby="imageModalLabel8" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModalLabel8">Image 8</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://thumbs.dreamstime.com/b/bear-market-cryptocurrency-stock-trading-ai-generated-277987321.jpg" alt="Image 8" class="img-fluid">
+                </div>
+    </div>
+
+    <div class="modal fade" id="imageModal9" tabindex="-1" aria-labelledby="imageModalLabel9" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModalLabel9">Image 9</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://www.hdfcsec.com/hsl.images/bull_vs_bear-202303271041408965611.jpg" alt="Image 9" class="img-fluid">
+                  </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
